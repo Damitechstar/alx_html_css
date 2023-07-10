@@ -1,3 +1,4 @@
+![html advanced project image](https://github.com/Damitechstar/alx_html_css/assets/136080923/cb59f8e1-75e5-4404-b966-749dc109a28b)
 # HTML, advanced
 
 This project focuses on implementing a webpage from a designer file, with a specific focus on the HTML structure. No CSS or styling is required for this project.
