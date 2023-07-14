@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+      }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    border: 3px azure;
+  }
+
+  article {
+    flex: 2;
+    overflow-y:auto;
+  }
+
+  aside {
+    flex: 1;
+    overflow-y:auto; 
+  }
+
+  header {
+    border-bottom: 2px rgb(54, 54, 228);
+    background-color: wheat;
+    width: auto;
+  }
+
+#list {
+  border: 2px purple;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: bisque;
+  text-decoration: aliceblue;
+}
+
+.test :hover {
+ color: blueviolet; 
+}
+
+h1
+{
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px
+}
+.logo{
+    font-size: 24px;
+    color: yellow;
+}
