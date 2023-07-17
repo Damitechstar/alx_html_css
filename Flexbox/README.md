@@ -1,1 +1,1 @@
-This is the readme file for my flexbox directory. It contains 0-styles.css and 0-index.html files for my flexbox project.
+This is the readme file for my flexbox directory. It contains styles.css and index.html files for my flexbox project.
