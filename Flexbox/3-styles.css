@@ -372,8 +372,15 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     padding: 10rem 40rem 2rem 0;
   }
   
- /* Section Latest news 
-    ============================= */
+  /* Section SERVICES 
+     ============================= */
+
+ .section-services .row {
+    flex-wrap: wrap;
+    }
+
+ /* Section LATEST NEWS 
+     ============================= */
 
 .section-latest-news .row {
     flex-direction: row-reverse;
