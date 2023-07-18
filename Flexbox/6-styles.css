@@ -227,8 +227,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
     display: block;
     padding: 0.5rem 0;
     position: relative;
-  }
-  
+  }  
   .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
     text-decoration: none;
