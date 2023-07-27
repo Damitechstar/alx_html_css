@@ -68,6 +68,12 @@ table {
     --dark-text: rgba(7, 22, 41, 0.5);
   }
 
+  body {
+    font-family: 'Source San Pro';
+    overflow-x: hidden;
+    font-size: 14px;
+  }
+
   /* Header Section */
 
   .header {
@@ -117,93 +123,55 @@ nav {
 	margin: 30px;
 }
 
-
-
-/* BASE STYLES */
-
-body {
-  font-family: 'Source San Pro';
-  overflow-x: hidden;
-  font-size: 14px;
+.header p.three-words {
+	word-spacing: 30px;
+	font-weight: bold;
+	margin: 15px;
 }
 
-.login-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
+.button:hover, .button:active {
+    opacity: 0.9;
   }
-  .login-dummy-container {
-    width: 100%;
-    height: 900px;
-  }
-  .login-text {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 12px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Source Sans Pro;
+
+.button {
+    font-family: var(--font);
+    font-size: 14px;
+    background-color: #C271FF;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    
     font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
+    border-radius: 24px;
+    margin: 1rem auto;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 0.2s ease;
   }
 
-  /* PRICING */
+.get-schooled button {
+	margin: 5%;
+}
 
-  .pricing-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-  }
-  .pricing-dummy-container {
-    width: 100%;
-    height: 900px;
-  }
-  .pricing-text {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 12px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  
+.purple {
+	color: var(--primary);
+	font-weight: bolder;
+}
 
-  /* COURSES */
+h2.learn {
+	font-size: 2rem;
+	margin: 1rem auto;
+}
 
-  .courses-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-  }
-  .courses-dummy-container {
-    width: 100%;
-    height: 900px;
-  }
-  .courses-text {
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    font-size: 12px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  
+div.images {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 5%;
+	margin: 0 5%;
+}
+
+.bruce {
+	border: transparent;
+	border-radius: 100px 100px 100px 100px;
+}
